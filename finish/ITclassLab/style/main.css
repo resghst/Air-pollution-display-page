@@ -1,0 +1,52 @@
+body{
+  background-image: url('../img/background.png'); 
+}
+
+.back{
+   margin: 0 auto;
+}
+
+.search.btn{
+  font-family:'Roboto', '黑體-繁', '微軟正黑體', sans-serif !important;
+  color: #FC5BB6;
+  font-weight: 900 ;
+  font-size: 22px;
+  background: #FFBEE3;
+  padding: 2px 15px;
+}
+.btn.focus, .btn:focus,.btn:hover{
+  color:#FF0592 !important;
+}
+.container-fluid{
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-family:'Roboto', '黑體-繁', '微軟正黑體', sans-serif !important;
+  color: #FF0592;
+  font-weight: 900 ;
+  font-size: 24px;
+  text-align: right;  
+}
+
+.table.table-bordered{
+  text-align: center;
+  width: 65vw;
+  margin: 20px auto;
+}
+
+.taitle{
+  background: #FFBEE3;
+}
+
+select{
+  font-family:'Roboto', '黑體-繁', '微軟正黑體', sans-serif !important;
+  padding: 0px 10px !important;
+  font-size: 17px !important;
+  color: #FF0592 !important;
+  background: #FFF6FB !important;
+}
+
+tr .active{
+  background: url('../img/table_backgroung.png') !important;
+}
+
